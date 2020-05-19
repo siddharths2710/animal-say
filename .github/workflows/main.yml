@@ -26,6 +26,3 @@ jobs:
         registry: localhost:5000
         repository: siddharths2710/animals-say
         tags: latest
-
-    - name: Run image from registry
-      run: docker run siddharths2710/animals-say:latest
